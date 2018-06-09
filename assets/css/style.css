@@ -1,3 +1,7 @@
+body {
+    background-image: url("../images/restaurant.png");
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 9fr 1fr;
@@ -52,7 +56,7 @@ h1 {
 
 h2 {
     font-size: 24px;
-    color: #4aaaa5;
+    color: #63188a;
     border-bottom: 4px solid silver;
 }
 
@@ -70,9 +74,24 @@ a {
 .content h1 {
     padding: 20px;
     border-bottom: 4px solid silver;
-    color: #4aaaa5;
+    color: #63188a;
 }
 
 .content p {
     margin: 30px;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: grey;
+    border-top: 9px solid #4aaaa5;
+}
+
+footer p {
+    margin-top: 30px;
+    color: white;
+    font-size: 12px;
 }

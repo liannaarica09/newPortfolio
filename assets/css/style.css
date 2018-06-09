@@ -1,0 +1,78 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    box-shadow: 0px 1px 1px 0px silver;
+}
+
+#headerContent {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav {
+    grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content {
+    grid-column-start: 2;
+}
+
+#mainBody {
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr 1fr;
+}
+
+#sidebar {
+    grid-column-start: 3;
+}
+
+#profilePic {
+    width: 200px;
+    float: left;
+    margin: 30px;
+}
+
+.banner {
+    display: inline-block;
+    background-color: #63188a;
+    padding: 30px 20px 30px 20px;
+}
+
+h1,
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 4px solid silver;
+}
+
+p,
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: DimGray;
+}
+
+.leftBorder {
+    border-left: 1px solid silver;
+}
+
+.content h1 {
+    padding: 20px;
+    border-bottom: 4px solid silver;
+    color: #4aaaa5;
+}
+
+.content p {
+    margin: 30px;
+}
